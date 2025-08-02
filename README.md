@@ -2,6 +2,21 @@
 
 Aplikasi web sederhana untuk mencatat dan mengelola barang inventaris pribadi. Dibangun menggunakan **PHP native** dengan arsitektur **MVC (Model-View-Controller)** dan database **SQLite3**.
 
+## 👥 Kontribusi Anggota Kelompok
+
+| Nama Anggota          | NIM          | Tanggung Jawab                                                                 |
+|-----------------------|--------------|--------------------------------------------------------------------------------|
+| Starfin Juang zalukhu | 202359201020 | Mendesain struktur database & mengimplementasikan fitur tambah barang/kategori |
+| Greggorius daeli      | 202359201028 | Membuat tampilan antarmuka, navigasi halaman, dan validasi input               |
+| Bung Ododran Daeli    | 202359201031 | Implementasi fitur edit & hapus, serta menghubungkan relasi antar tabel        |
+| Deseri Lahagu         | 202359201040 | Melakukan pengujian aplikasi dan menulis dokumentasi (README & laporan)        |
+
+
+
+
+
+
+
 ## 📋 Fitur Utama
 
 - 🔄 CRUD Barang: Tambah, lihat, edit, dan hapus data barang.
