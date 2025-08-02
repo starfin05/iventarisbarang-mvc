@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS kategori (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nama TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS barang (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nama TEXT NOT NULL,
+    jumlah INTEGER NOT NULL,
+    lokasi TEXT NOT NULL,
+    deskripsi TEXT,
+    kategori_id INTEGER NOT NULL,
+    FOREIGN KEY(kategori_id) REFERENCES kategori(id)
+);
+
